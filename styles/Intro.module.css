@@ -1,0 +1,12 @@
+.container{
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color:darkgrey;
+    display: flex;
+}
+
+.card{
+    flex: 1;
+    padding: 100px;
+    padding-right: 0;
+}
