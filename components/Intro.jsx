@@ -1,8 +1,10 @@
 import styles from "../styles/Intro.module.css";
 import Image  from "next/image"
+import Circle from "./Circle";
 const Intro = () => {
   return (
     <div className={styles.container}>
+      <Circle backgroundColor="#F9F5EB" top="-50vh" left="-50vh" />
       <div className={styles.card}>
         <h1 className={styles.title}><span className={styles.brand}>BESTE</span> BESTE TOKPINAR</h1>
         <p className={styles.desc}>

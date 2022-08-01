@@ -1,9 +1,9 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-import Layout from "../components/Layout";
+import Services from "../components/Services";
 import Intro from "../components/Intro";
+import {data} from "../data"
 
-export default function Home() {
+export default function Home({services}) {
   return (
     <div>
       <Head>
@@ -11,6 +11,14 @@ export default function Home() {
         <meta name="description" content="Beste Tokpınar's blog" />
       </Head>
       <Intro />
+      <Services services={services}/>
     </div>
   );
+}
+
+export const getStaticProps = async () =>{
+  const services = data;
+  return {
+    props:{services},
+  }
 }
