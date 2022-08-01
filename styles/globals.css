@@ -15,6 +15,16 @@ a {
   box-sizing: border-box;
 }
 
+.circle{
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 9999;
+  opacity: 0.1;
+}
+
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
