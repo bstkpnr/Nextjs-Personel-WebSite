@@ -29,3 +29,24 @@ export const data=[
         photo: "before.jpg"
     }
 ]
+
+export const users=[
+    {
+        id:1,
+        logo:"linkedin.png",
+        name:"Beste Tokpınar",
+        title:"Bilgisayar Mühendisi",
+    },
+    {
+        id:2,
+        logo:"youtube.png",
+        name:"Beste Tokpınar",
+        title:"Bilgisayar Mühendisi",
+    },
+    {
+        id:3,
+        logo:"medium.png",
+        name:"Beste Tokpınar",
+        title:"Bilgisayar Mühendisi",
+    }
+]
