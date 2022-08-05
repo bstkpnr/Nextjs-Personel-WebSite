@@ -19,7 +19,7 @@
     margin: 0;
 }
 .brand{
-    color: green;
+    color: #FF1E00;
 
 }
 .desc{
@@ -28,7 +28,7 @@
 }
 .button{
     border: none;
-    background-color: green;
+    background-color: #FF1E00;
     color: white;
     font-weight: bold;
     width: 100px;
