@@ -6,16 +6,16 @@ const Navbar = ()=>{
             <Link href='/'>BESTE</Link>
             <ul className={styles.list}>
                 <li className={styles.listItem}>
-                    <Link href="/products/about">About</Link>
+                    <Link href="/about">About</Link>
                 </li>
                 <li className={styles.listItem}>
-                    <Link href="/products/blog">Blog</Link>
+                    <Link href="/blog">Blog</Link>
                 </li>
                 <li className={styles.listItem}>
-                    <Link href="/products/playlist">Playlist</Link>
+                    <Link href="/playlist">Playlist</Link>
                 </li>
                 <li className={styles.listItem}>
-                    <Link href="/products/contact">Contact</Link>
+                    <Link href="/contact">Contact</Link>
                 </li>
             </ul>
         </div>
