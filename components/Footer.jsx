@@ -10,7 +10,7 @@ const Footer = () => {
         <h1 className={styles.linkTitle}>
           <a href="/contact" passHref>
             <span className={styles.linkText}>ME</span>
-            <Image src="/img/link.png" width="40px" height="40px" alt="" />
+            <Image src="/img/link.png" width="20px" height="20px" alt="" />
           </a>
         </h1>
       </div>

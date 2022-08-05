@@ -4,15 +4,17 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 18px;
+    font-size: 14px;
     padding: 50px;
 }
 .title{
     font-weight: 400;
     color: white;
-    background-color:yellow;
+    background-color:#FF1E00;
     padding: 5px;
     width: max-content;
+    border: 1px solid transparent;
+    border-radius: 10px;
 }
 .linkTitle{
     text-decoration: underline;
