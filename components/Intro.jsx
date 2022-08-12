@@ -1,7 +1,18 @@
 import styles from "../styles/Intro.module.css";
+import { useRef } from "react";
 import Image  from "next/image"
+import Link from "next/link";
 import Circle from "./Circle";
+import Services from "./Services";
 const Intro = () => {
+  const ref=useRef(null);
+
+  const handleClick = ()=>{
+    ref.current?.scrollIntoView({behavior: 'smooth'})
+    console.log("beste")
+  }
+
+  
   return (
     <div className={styles.container}>
       <Circle backgroundColor="#F9F5EB" top="-50vh" left="-50vh" />
@@ -10,7 +21,7 @@ const Intro = () => {
         <p className={styles.desc}>
           Okur,Öğrenir,İnşaa Eder
         </p>
-        <button className={styles.button}>DISCOVER</button>
+        <button className={styles.button} onClick={handleClick}>KEŞFET</button>
       </div>
       <div className={styles.card}>
      <Image src="/img/kaos.png" alt="" width="100%" height="100%" layout="fill" objectFit="cover" />

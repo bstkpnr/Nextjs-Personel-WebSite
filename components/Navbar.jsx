@@ -3,10 +3,10 @@ import Link from "next/link"
 const Navbar = ()=>{
     return(
         <div className={styles.container}>
-            <Link href='/'>BESTE</Link>
+            <Link href='/'>BESTE TOKPINAR</Link>
             <ul className={styles.list}>
                 <li className={styles.listItem}>
-                    <Link href="/about">About</Link>
+                    <Link href="/about" >Hakkımda</Link>
                 </li>
                 <li className={styles.listItem}>
                     <Link href="/blog">Blog</Link>
@@ -15,7 +15,7 @@ const Navbar = ()=>{
                     <Link href="/playlist">Playlist</Link>
                 </li>
                 <li className={styles.listItem}>
-                    <Link href="/contact">Contact</Link>
+                    <Link href="/contact">İletişim</Link>
                 </li>
             </ul>
         </div>

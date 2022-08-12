@@ -6,7 +6,6 @@ const Services = ({ services }) => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>What I Can Do?</h1>
-      <h1 className={styles.title}>What I Can Do?</h1>
       <div className={styles.services}>
         {services.map((service) => (
           <Link passHref key={service.id} href={`/${service.name}`}>
