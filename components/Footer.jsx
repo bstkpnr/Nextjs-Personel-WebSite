@@ -13,22 +13,29 @@ const Footer = () => {
             <Image src="/img/link.png" width="20px" height="20px" alt="" />
           </a>
         </h1>
-      </div>
-      <div className={styles.cardS}>
-        <div className={styles.cardItem}>
-          İZMİR <br /> TÜRKİYE
-        </div>
-        <div className={styles.cardItem}>tokpinarbeste@gmail.com</div>
-      </div>
-      <div className={styles.cardS}>
-        <div className={styles.cardItem}>
-          FOLLOW ME: <br /> __IN __TW __LI
-        </div>
-        <div className={styles.cardItem}>
-          2022 BESTE TOKPINAR,
-          <br />
-          BLA BLA{" "}
-        </div>
+        <ul className={styles.ulContainer}>
+          <li className={styles.liContainer}>
+            <a
+              href="https://twitter.com/devbastet"
+              className={styles.aContainer}
+            >
+              Twitter
+            </a>
+          </li>
+          <li className={styles.liContainer}>
+            <a href="mailto:tokpinarbeste@gmail.com" className={styles.aContainer}>
+              Email
+            </a>
+          </li>
+          <li className={styles.liContainer}>
+            <a href="https://github.com/bstkpnr" className={styles.aContainer}>
+              Github
+            </a>
+          </li>
+          <li className={styles.liContainer}>
+            <p className={styles.pContainer}>👋</p>
+          </li>
+        </ul>
       </div>
     </div>
   );
