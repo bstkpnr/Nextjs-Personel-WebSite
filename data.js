@@ -2,7 +2,7 @@ export const data=[
     {
         id:1,
         name:"about",
-        title: "Developer",
+        title: "Hakkımda",
         desc: "Açıklama Yokk",
         photo: "devbeste.jpeg",
         images: [
@@ -78,9 +78,9 @@ export const data=[
     {
         id:4,
         name: "food",
-        title: "Food",
+        title: "Developer",
         desc: "Food Açıklama",
-        photo: "before.jpg",
+        photo: "algirl.png",
         images: [
             {
               id: 1,
