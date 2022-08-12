@@ -123,3 +123,54 @@ export const users=[
     }
 ]
 
+export const contact=[
+  {
+    id:1,
+    logo:"gmail.png",
+    title:"GMAIL",
+    url:"mailto:tokpinarbeste@gmail.com",
+  },
+  {
+    id:2,
+    logo:"twitter.png",
+    title:"TWITTER",
+    url:"https://twitter.com/devbastet",
+  },
+  {
+    id:3,
+    logo:"github.png",
+    title:"GITHUB",
+    url:"https://github.com/bstkpnr",
+  },
+  {
+    id:4,
+    logo:"medium.png",
+    title:"MEDIUM",
+    url:"https://medium.com/@bstkpnr",
+  },
+  {
+    id:5,
+    logo:"youtube.png",
+    title:"YOUTUBE",
+    url:"https://www.youtube.com/channel/UCID3eaPgFHwle9_ZiaF9rKA",
+  },
+  {
+    id:6,
+    logo:"skull.png",
+    title:"HACKERRANK",
+    url:"https://www.hackerrank.com/bstkpnr01",
+  },
+  {
+    id:7,
+    logo:"instagram.png",
+    title:"INSTAGRAM",
+    url:"https://www.hackerrank.com/bstkpnr01",
+  },
+  {
+    id:8,
+    logo:"stackoverlow.png",
+    title:"STACKOVERFLOW",
+    url:"https://stackoverflow.com/users/14262433/bstkpnr",
+  },
+
+]
