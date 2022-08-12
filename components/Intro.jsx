@@ -3,12 +3,11 @@ import { useRef } from "react";
 import Image  from "next/image"
 import Link from "next/link";
 import Circle from "./Circle";
-import Services from "./Services";
 const Intro = () => {
-  const ref=useRef(null);
+  const divRef=useRef(null);
 
   const handleClick = ()=>{
-    ref.current?.scrollIntoView({behavior: 'smooth'})
+    divRef.current?.scrollIntoView({behavior: 'smooth'})
     console.log("beste")
   }
 
@@ -21,7 +20,7 @@ const Intro = () => {
         <p className={styles.desc}>
           Okur,Öğrenir,İnşaa Eder
         </p>
-        <button className={styles.button} onClick={handleClick}>KEŞFET</button>
+        <button className={styles.button} onClick={handleClick} ref={divRef}>KEŞFET</button>
       </div>
       <div className={styles.card}>
      <Image src="/img/kaos.png" alt="" width="100%" height="100%" layout="fill" objectFit="cover" />
