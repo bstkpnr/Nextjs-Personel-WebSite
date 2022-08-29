@@ -1,7 +1,6 @@
 import {data} from '../data'
 import styles from '../styles/MyInfo.module.css'
 import Image from 'next/image'
-import Link from 'next/link'
 
 const MyInfo = ({dataInfo}) =>{
     return(
@@ -16,13 +15,9 @@ const MyInfo = ({dataInfo}) =>{
             <div className={styles.cardS}>
                 <h1 className={styles.title}>{dataInfo.title}</h1>
                 <p className={styles.desc}>{dataInfo.desc}</p>
-                <button className={styles.button}>
-                    <Link href="/contact">İletişim</Link>
-                </button>
             </div>
-
-
         </div>
+        
     )
 }
 

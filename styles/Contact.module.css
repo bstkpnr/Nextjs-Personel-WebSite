@@ -6,41 +6,27 @@
     overflow: hidden;
     position: relative;
 }
+.imgContainer{
+    width: 30%;
+    margin: 5px;
+    background-color: green;
+}
 
-.form{
-    width: 500px;
-    height: 500px;
-    padding: 50px;
+.cardS{
+    flex: 1;
+}
+.title{
+    font-weight: 400;
+    color: white;
+    background-color:#FF1E00;
+    padding: 5px;
+    width: max-content;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.cardL{
+    flex: 2;
     display: flex;
     flex-wrap: wrap;
-}
-.inputS{
-    flex: 1;
-    height: 50px;
-    padding-left: 10px;
-}
-
-.inputS:first-child{
-    margin-right: 5px;
-}
-
-.inputL{
-    width: 100%;
-    height: 50px;
-    padding-left: 10px;
-}
-.textArea{
-    width: 100%;
-    padding-left: 10px;
-}
-.buttonF{
-    margin-top: 20px;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    background-color: yellowgreen;
-    width: 100%;
-    font-size: 16px;
-    cursor: pointer;
 }

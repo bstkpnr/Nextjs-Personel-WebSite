@@ -14,9 +14,9 @@ const Navbar = ()=>{
                 <li className={styles.listItem}>
                     <Link href="/playlist">Playlist</Link>
                 </li>
-                <li className={styles.listItem}>
-                    <Link href="/contact">İletişim</Link>
-                </li>
+                {/* <li className={styles.listItem}>
+                    <Link href={{pathname:'/[contact]', query:{contact: 'contact'}}}>İletişim</Link>
+                </li> */}
             </ul>
         </div>
     );

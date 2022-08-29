@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Services from "../components/Services";
 import Intro from "../components/Intro";
-import {data} from "../data"
+import {data, mycontact} from "../data"
 
 export default function Home({services}) {
   return (
